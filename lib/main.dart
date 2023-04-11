@@ -38,14 +38,7 @@ class HomePage extends StatelessWidget {
                       const EdgeInsets.only(top: 200, left: 150, right: 150),
                   child: Column(
                     children: [
-                      TextField(
-                        decoration: InputDecoration(
-                            hintText: 'Enter ID',
-                            border: OutlineInputBorder(
-                                borderSide: BorderSide(color: Colors.grey)),
-                            focusedBorder: OutlineInputBorder(
-                                borderSide: BorderSide(color: Colors.green))),
-                      ),
+                      
                       SizedBox(height: 70),
                       Container(
                           height: 50,
